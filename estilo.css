@@ -1,0 +1,55 @@
+body {
+    margin: 0%;
+}
+
+#contenedor1 {
+    display: flex;
+    background-color:#be866542;
+
+}
+#contenedoreshijos1 {
+width: 50vw;
+text-align: center;
+
+
+}
+
+#imagen {
+    width: 100%;
+    height: 100%;
+}
+#form {
+    margin-left: 200px;
+    width: 50%;
+}
+#footer {
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 254, 254);
+    display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+@media (max-width:500px) 
+{
+    #contenedor1 {
+        flex-direction: column;
+        
+
+    }
+    #contenedoreshijos1 {
+        width: 100%;
+    }
+    #form {
+        margin-left: 100px;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    }
+}
+
